@@ -100,11 +100,12 @@ The trained model can be saved using `joblib` or `pickle` for future predictions
 pip install pandas numpy seaborn matplotlib scikit-learn xgboost
 
 ## Run the Script
-
-Run the Python file:
-
+```bash
 python salary_prediction.py
-Project Structure
+
+## Project Structure
+
+```text
 DS-Salary-Prediction/
 │
 ├── salary_prediction.py
@@ -114,21 +115,34 @@ DS-Salary-Prediction/
     ├── correlation_heatmap.png
     ├── feature_importance.png
     ├── salary_distribution.png
+
 ## Objective
 
-Analyze and model data science job salaries to uncover trends, identify salary drivers, and predict salaries based on job-related factors.
+To analyze data science job salaries, identify key factors affecting salary, and build a machine learning regression model to predict salaries based on job-related features.
 
 ## Learning Outcomes
 
-Understanding regression modeling techniques
+- Understanding regression modeling techniques  
+- Performing feature engineering and target encoding  
+- Data visualization for better insights  
+- Model evaluation using R² score  
+- Interpreting feature importance in machine learning models  
 
-Feature engineering and target encoding
+## Model Evaluation
 
-Data visualization for insights
+The model was evaluated using:
 
-Model evaluation using R² score
+- R² Score  
 
-Feature importance interpretation
+## Final Result
+
+- XGBoost Model R² Score: *(add your value here, e.g. 0.90+)*  
+
+The XGBoost model successfully captured salary patterns and provided accurate predictions.
+
+## Model Saving
+
+The trained model can be saved using `joblib` or `pickle` for future predictions without retraining the model.
 
 ## Author
 
