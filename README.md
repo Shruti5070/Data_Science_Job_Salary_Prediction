@@ -20,10 +20,9 @@ The goal of this project is to:
 
 ## Tech Stack
 
-**Programming Language:** Python  
+Programming Language: Python  
 
-**Libraries Used:**
-
+Libraries Used:
 - Pandas  
 - NumPy  
 - Seaborn  
@@ -33,7 +32,7 @@ The goal of this project is to:
 
 ## Machine Learning Model Used
 
-### XGBoost Regressor
+XGBoost Regressor
 
 - n_estimators = 3000  
 - learning_rate = 0.01  
@@ -57,13 +56,13 @@ The goal of this project is to:
 
 The model was evaluated using:
 
-- R² Score  
+- R2 Score  
 
 ## Final Result
 
-- XGBoost Model R² Score: (add your value here, e.g. 0.90+)
+XGBoost Model R2 Score: (add your value here, e.g. 0.90+)
 
-The XGBoost model successfully captured salary patterns and provided accurate predictions.
+The model successfully captured salary patterns and provided accurate predictions.
 
 ## Key Features Implemented
 
@@ -89,32 +88,33 @@ The following insights were generated:
 
 ## Model Saving
 
-The trained model can be saved using `joblib` or `pickle` for future predictions without retraining the model.
+The trained model can be saved using joblib or pickle for future predictions without retraining the model.
 
 ## How to Run the Project
 
-1. Clone the repository  
-2. Install required libraries:
+### Step 1: Clone the Repository
+git clone <repo-link>
 
-```bash
+### Step 2: Navigate to Project Folder
+cd DS-Salary-Prediction
+
+### Step 3: Install Required Libraries
 pip install pandas numpy seaborn matplotlib scikit-learn xgboost
 
-## Run the Script
-```bash
-python salary_prediction.py
+### Step 4: Run the Script
+python data_science_job_salary_prediction.py
 
 ## Project Structure
 
-```text
 DS-Salary-Prediction/
-│
-├── salary_prediction.py
-├── ds_job_salary.csv
-├── README.md
-└── outputs/
-    ├── correlation_heatmap.png
-    ├── feature_importance.png
-    ├── salary_distribution.png
+
+├── data_science_job_salary_prediction.py  
+├── ds_job_salary.csv  
+├── README.md  
+└── outputs/  
+    ├── correlation_heatmap.png  
+    ├── feature_importance.png  
+    ├── salary_distribution.png  
 
 ## Objective
 
@@ -125,24 +125,8 @@ To analyze data science job salaries, identify key factors affecting salary, and
 - Understanding regression modeling techniques  
 - Performing feature engineering and target encoding  
 - Data visualization for better insights  
-- Model evaluation using R² score  
+- Model evaluation using R2 score  
 - Interpreting feature importance in machine learning models  
-
-## Model Evaluation
-
-The model was evaluated using:
-
-- R² Score  
-
-## Final Result
-
-- XGBoost Model R² Score: *(add your value here, e.g. 0.90+)*  
-
-The XGBoost model successfully captured salary patterns and provided accurate predictions.
-
-## Model Saving
-
-The trained model can be saved using `joblib` or `pickle` for future predictions without retraining the model.
 
 ## Author
 
